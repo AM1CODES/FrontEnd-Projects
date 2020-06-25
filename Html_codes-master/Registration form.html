@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" method="POST">
+        <label for="firstname">Firstname:</label>
+        <input id="firstname" type="text" placeholder="Firstname" required>
+        <label for="lastname">Lastname:</label>
+        <input id="lastname" type="text" placeholder="Lastname" required>
+        <form action="">
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male</label>
+            <input name="gender" id="gen" type="radio" value="Male">
+            <label for="Female">Female</label>
+            <input name="gender" id="gen" type="radio" value="Female">
+            <label for="Other">Other</label>
+            <input name="gender" id="gen" type="radio" value="Other">
+
+        </form>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Email" required>
+        <form action="">
+            <label for="Birthday">Birthday:</label>
+            <select>
+                <option>Year</option>
+                <!--You can add your own number of months-->
+            </select>
+            <select>
+                <option>Month</option>
+                <!--You can add your own number of months-->
+            </select>
+            <select>
+                <option>Day</option>
+                <!--You can add your own number of days-->
+            </select>
+    
+
+        </form>
+        <label for="terms">I agree to the Terms and Conditions:</label>
+        <input name="terms" id="terms" type="radio" >
+        <form action="">
+            <input type="submit">
+        </form>
+        
+
+
+        
+
+    </form>
+</body>
+</html>
