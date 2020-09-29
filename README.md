@@ -1,2 +1,2 @@
 # FrontEnd-Projects
-This Repository contains all my Front-End development projects
+This Repository contains all of my codes when i started off with web-development. It contains all HTML and CSS.
